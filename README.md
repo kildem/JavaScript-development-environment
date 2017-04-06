@@ -1,0 +1,1 @@
+course about setting up a JavaScript Development Environment
