@@ -1,5 +1,6 @@
 import path from 'path';
 import webpack from 'webpack';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
 
 export default {
 	resolve: {
@@ -16,6 +17,10 @@ export default {
 		filename: 'bundle.js'
 	},
 	plugins: [
+		new HtmlWebpackPlugin({
+			template: 'src/index.html',
+			inject: true,
+		}),
 		new webpack.LoaderOptionsPlugin({
 			debug: true
 		})
