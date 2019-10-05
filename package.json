@@ -50,7 +50,7 @@
     "json-server": "^0.10.0",
     "localtunnel": "^1.8.2",
     "mocha": "^3.2.0",
-    "nock": "9.0.13",
+    "nock": "11.3.6",
     "npm-run-all": "^4.0.2",
     "nsp": "^2.6.3",
     "numeral": "^2.0.6",
